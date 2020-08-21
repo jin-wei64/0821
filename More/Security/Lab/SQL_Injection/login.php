@@ -10,7 +10,7 @@ if (isset ( $_GET ["logout"] )) {
 if (isset ( $_POST ["btnOK"] )) {
 	$id = $_POST ["txtID"];
 	$password = $_POST ["txtPassword"];
-	$password = md5 ( $password );
+	$password = md5 ( $password ); //sha256() is better
 	
 	$db = new PDO ( "mysql:host=$dbhost;dbname=$dbname;port=3306", $dbuser, $dbpass );
 	$db->exec ( "set names utf8" );
