@@ -9,9 +9,8 @@
 $doc = new DOMDocument();
 $doc->Load('employees.xml');
 $xpath = new DOMXPath($doc);
-$entries = $xpath->query("/employees/employee/@EmpType");
-foreach ($entries as $entry) 
-{
+$entries = $xpath->query("/employees/employee/lastName/@EmpType"); //＋'@'為屬性
+foreach ($entries as $entry) {
    echo "結果：" . $entry->nodeValue . "<br>";
 }
 ?>

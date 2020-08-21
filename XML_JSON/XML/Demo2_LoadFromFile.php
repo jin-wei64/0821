@@ -8,7 +8,7 @@
 View html souce please: <HR>
 <?php
 $doc = new DOMDocument();
-$doc->load("employees.xml");
+$doc->load("employees.xml"); //load檔案
 echo $doc->c14n();
 ?>
 

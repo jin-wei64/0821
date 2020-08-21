@@ -27,6 +27,6 @@ MultiLines;
 
 $doc = new DOMDocument();  
 $doc->loadXML($xmlString); 
-header("Content-type: text/xml", true);
-echo $doc->c14n();
+header("Content-type: text/xml", true); 
+echo $doc->c14n(); //canonicalization
 ?>

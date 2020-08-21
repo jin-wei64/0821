@@ -1,8 +1,11 @@
 ﻿<?php
 $doc = new DOMDocument("1.0", "utf-8");
 $root = $doc->createElement("HTML");
-$root2 = $doc->createElement("CSS");
-$doc->appendChild($root);
-$root->appendChild($root2);
+$css = $doc->createElement("CSS");
+
+$doc->appendChild($root); //doc掛一個子元素root
+
+
+$root->appendChild($css); //root掛一個子元素css
 echo htmlspecialchars($doc->c14n());
 ?>

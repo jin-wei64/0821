@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <employees>
   <employee EmpType="Manager">
-    <lastName>Leverling</lastName>
-    <firstName>Janet</firstName>
+    <lastName EmpType = "Ryu" >Leverling</lastName>
+    <firstName>Janet</firstName> 
   </employee>
   <employee EmpType="Sales">
     <lastName>Jeter</lastName>
