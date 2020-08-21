@@ -1,4 +1,5 @@
 <?php
+    
     $scoreList = [100, 50, 90, 95];
     $viewModal = [];
     foreach($scoreList as $score){
@@ -8,9 +9,14 @@
         }
         $viewModal[] = $student;
     }
-    // $obj = (object) [ "firstName" => "Ryu","lastName" => "loin" ];
+    $obj = (object) [ "firstName" => "Ryu","lastName" => "loin" ];
     // echo $obj->firstName." ".$obj->lastName;
     // exit();
+    
+    
+    
+    
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
