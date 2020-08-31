@@ -11,12 +11,7 @@
     }
     $obj = (object) [ "firstName" => "Ryu","lastName" => "loin" ];
     // echo $obj->firstName." ".$obj->lastName;
-    // exit();
-    
-    
-    
-    
-    
+    // exit();    
 ?>
 <!DOCTYPE html>
 <html lang="en">
